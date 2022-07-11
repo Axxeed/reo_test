@@ -1,1 +1,6 @@
-print("bonjour, je m'apelle alexis")
+
+def afficher_ligne(n = 10):
+    for i in range(n):
+        print("-"*i)
+
+afficher_ligne(10)
